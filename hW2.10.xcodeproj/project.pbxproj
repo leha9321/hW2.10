@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE131FDC2756B332006E2095 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE131FDB2756B332006E2095 /* ImageViewController.swift */; };
+		DE3B76AB2758052F004015C4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B76AA2758052F004015C4 /* TableViewController.swift */; };
+		DE3B76AD275810F7004015C4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B76AC275810F7004015C4 /* TableViewCell.swift */; };
 		DE4A80E22752A71100B9A21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A80E12752A71100B9A21A /* AppDelegate.swift */; };
 		DE4A80E42752A71100B9A21A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A80E32752A71100B9A21A /* SceneDelegate.swift */; };
-		DE4A80E62752A71100B9A21A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A80E52752A71100B9A21A /* ViewController.swift */; };
 		DE4A80E92752A71100B9A21A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4A80E72752A71100B9A21A /* Main.storyboard */; };
 		DE4A80EB2752A71500B9A21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4A80EA2752A71500B9A21A /* Assets.xcassets */; };
 		DE4A80EE2752A71500B9A21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4A80EC2752A71500B9A21A /* LaunchScreen.storyboard */; };
+		DE4A80FA2753BA8200B9A21A /* HeroOfFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A80F92753BA8100B9A21A /* HeroOfFilm.swift */; };
+		DE4A80FC2753BC8300B9A21A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A80FB2753BC8300B9A21A /* CollectionViewCell.swift */; };
+		DE4A80FE2753BCB800B9A21A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A80FD2753BCB800B9A21A /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE131FDB2756B332006E2095 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		DE3B76AA2758052F004015C4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DE3B76AC275810F7004015C4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		DE4A80DE2752A71100B9A21A /* hW2.10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hW2.10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4A80E12752A71100B9A21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE4A80E32752A71100B9A21A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE4A80E52752A71100B9A21A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE4A80E82752A71100B9A21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE4A80EA2752A71500B9A21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE4A80ED2752A71500B9A21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE4A80EF2752A71500B9A21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4A80F92753BA8100B9A21A /* HeroOfFilm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroOfFilm.swift; sourceTree = "<group>"; };
+		DE4A80FB2753BC8300B9A21A /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		DE4A80FD2753BCB800B9A21A /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,7 @@
 		DE4A80D52752A71100B9A21A = {
 			isa = PBXGroup;
 			children = (
+				DE3B76AC275810F7004015C4 /* TableViewCell.swift */,
 				DE4A80E02752A71100B9A21A /* hW2.10 */,
 				DE4A80DF2752A71100B9A21A /* Products */,
 			);
@@ -56,15 +67,51 @@
 		DE4A80E02752A71100B9A21A /* hW2.10 */ = {
 			isa = PBXGroup;
 			children = (
-				DE4A80E12752A71100B9A21A /* AppDelegate.swift */,
-				DE4A80E32752A71100B9A21A /* SceneDelegate.swift */,
-				DE4A80E52752A71100B9A21A /* ViewController.swift */,
-				DE4A80E72752A71100B9A21A /* Main.storyboard */,
-				DE4A80EA2752A71500B9A21A /* Assets.xcassets */,
-				DE4A80EC2752A71500B9A21A /* LaunchScreen.storyboard */,
-				DE4A80EF2752A71500B9A21A /* Info.plist */,
+				DE4A80F82752A76700B9A21A /* Model */,
+				DE4A80F52752A72D00B9A21A /* Other  */,
+				DE4A80F62752A73900B9A21A /* Controllers */,
+				DE4A80F72752A74000B9A21A /* View */,
 			);
 			path = hW2.10;
+			sourceTree = "<group>";
+		};
+		DE4A80F52752A72D00B9A21A /* Other  */ = {
+			isa = PBXGroup;
+			children = (
+				DE4A80E12752A71100B9A21A /* AppDelegate.swift */,
+				DE4A80E32752A71100B9A21A /* SceneDelegate.swift */,
+				DE4A80EA2752A71500B9A21A /* Assets.xcassets */,
+				DE4A80EF2752A71500B9A21A /* Info.plist */,
+			);
+			path = "Other ";
+			sourceTree = "<group>";
+		};
+		DE4A80F62752A73900B9A21A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE3B76AA2758052F004015C4 /* TableViewController.swift */,
+				DE4A80FB2753BC8300B9A21A /* CollectionViewCell.swift */,
+				DE4A80FD2753BCB800B9A21A /* CollectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE4A80F72752A74000B9A21A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE4A80E72752A71100B9A21A /* Main.storyboard */,
+				DE131FDB2756B332006E2095 /* ImageViewController.swift */,
+				DE4A80EC2752A71500B9A21A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE4A80F82752A76700B9A21A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE4A80F92753BA8100B9A21A /* HeroOfFilm.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE4A80E62752A71100B9A21A /* ViewController.swift in Sources */,
+				DE4A80FE2753BCB800B9A21A /* CollectionViewController.swift in Sources */,
+				DE3B76AD275810F7004015C4 /* TableViewCell.swift in Sources */,
+				DE4A80FC2753BC8300B9A21A /* CollectionViewCell.swift in Sources */,
+				DE3B76AB2758052F004015C4 /* TableViewController.swift in Sources */,
+				DE131FDC2756B332006E2095 /* ImageViewController.swift in Sources */,
 				DE4A80E22752A71100B9A21A /* AppDelegate.swift in Sources */,
+				DE4A80FA2753BA8200B9A21A /* HeroOfFilm.swift in Sources */,
 				DE4A80E42752A71100B9A21A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +343,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8C8XRB8SJ7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = hW2.10/Info.plist;
+				INFOPLIST_FILE = "/Users/aleksejtrofimov/Desktop/swiftHomeWork/2 курс/untitled folder/hW2.10/hW2.10/Other /Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +371,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8C8XRB8SJ7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = hW2.10/Info.plist;
+				INFOPLIST_FILE = "/Users/aleksejtrofimov/Desktop/swiftHomeWork/2 курс/untitled folder/hW2.10/hW2.10/Other /Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
