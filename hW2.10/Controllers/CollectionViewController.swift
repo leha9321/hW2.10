@@ -41,6 +41,7 @@ class CollectionViewController: UICollectionViewController {
         if segue.identifier == "AboutHero" {
             let heroVC = segue.destination as! TableViewController
             heroVC.fetchData()
+            heroVC.metod()
         }
     }
     
