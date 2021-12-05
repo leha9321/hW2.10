@@ -46,6 +46,7 @@ class TableViewController: UITableViewController {
             do {
                 self.heros = try decoder.decode(HeroOfFilm.self, from: data)
                 print(self.heros)
+            
             } catch let error {
                 print(error.localizedDescription)
             } 
