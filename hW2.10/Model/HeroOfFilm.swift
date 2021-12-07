@@ -7,18 +7,11 @@
 
 import Foundation
 
-struct HeroOfFilm: Decodable {
+struct HeroOfFilm: Codable {
     let name: String?
     let gender: String?
     let culture: String?
     let born: String?
-//  func herob(_: HeroOfFilm) -> [String] {
-//        var massiv:[String] = []
-//        massiv.append(name ?? "no name")
-//        massiv.append(gender ?? "no info")
-//        massiv.append(culture ?? "no info")
-//        massiv.append(born ?? "no info")
-//        return massiv
-//    }
+
 }
 
